@@ -4,7 +4,7 @@ class Next extends Component {
     constructor () {
         super();
         this.state = {
-            Next: 'Would you like to procede to the next step, click the button below '
+            Next: 'Click the button to procede to the next step '
         }
     }
 
