@@ -6,20 +6,24 @@ import Hello from "./Components/Hello";
 import Message from "./Components/Message";
 import Next from "./Components/Next";
 import Counter from "./Components/Counter";
+import FunctionClick from "./Components/FunctionClick";
+import ClassClick from "./Components/ClassClick";
 function App() {
   return (
     <div className="App">
+      <FunctionClick />
+      <ClassClick />
       {/* <Counter /> */}
       {/* <Next/> */}
       {/* <Message /> */}
-      <Greet name="Denis" heroName="Trader">
+      {/* <Greet name="Denis" heroName="Trader">
         <p>This is children props</p>
       </Greet>
-      <Greet name="Jack" heroName="Driver" />
+      <Greet name="Jack" heroName="Driver" /> */}
       {/* <Greet name="Deric" heroName="player" />
       <Greet name="Alkem" heroName="Executive" /> */}
 
-      <Welcome name="Jack" heroName="Driver" />
+      {/* <Welcome name="Jack" heroName="Driver" /> */}
       {/* <Welcome name="Jack" heroName="Driver" />
       <Welcome name="Jack" heroName="Driver" />
       <Welcome name="Jack" heroName="Driver" /> */}
