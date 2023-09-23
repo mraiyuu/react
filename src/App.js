@@ -8,11 +8,14 @@ import Next from "./Components/Next";
 import Counter from "./Components/Counter";
 import FunctionClick from "./Components/FunctionClick";
 import ClassClick from "./Components/ClassClick";
+import EventBind from "./Components/EventBind";
 function App() {
   return (
     <div className="App">
-      <FunctionClick />
-      <ClassClick />
+
+      <EventBind />
+      {/* <FunctionClick />
+      <ClassClick /> */}
       {/* <Counter /> */}
       {/* <Next/> */}
       {/* <Message /> */}
