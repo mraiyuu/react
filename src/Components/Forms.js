@@ -26,9 +26,16 @@ class Forms extends Component {
     })
 
   }
+
+  handleSubmit = (event) => {
+    alert(` ${this.state.username} ${this.state.comment} ${this.state.topic}
+    `)
+    event.preventDefault()
+  }
+
   render() {
     return (
-      <form>
+      <form onSubmit={this.handleSubmit}>
         <div>
           <lable>Username</lable>
           <input
@@ -52,7 +59,8 @@ class Forms extends Component {
             <option value="python">Python</option>
           </select>
         </div>
-        
+        <button type="submit">Submit</button>
+
 
 
       </form>
